@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"Card"},{"p":"<Unnamed>","l":"CardTester"},{"p":"<Unnamed>","l":"MyTester"},{"p":"<Unnamed>","l":"ResortManager"},{"p":"<Unnamed>","l":"ResortUI"},{"p":"<Unnamed>","l":"Runner"},{"p":"<Unnamed>","l":"RunTester"},{"p":"<Unnamed>","l":"Shuttle"},{"p":"<Unnamed>","l":"World"}]
