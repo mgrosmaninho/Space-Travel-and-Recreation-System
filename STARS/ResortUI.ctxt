@@ -1,0 +1,40 @@
+#BlueJ class context
+comment0.target=ResortUI
+comment0.text=\ \n\ This\ class\ implements\ Cwk\ 2\n\ \n\ @author\ Manuel\ Gomes\ Rosmaninho\ \n\ @version\ 09/04/2020\n
+comment1.params=
+comment1.target=void\ runUI()
+comment1.text=\ Process\ the\ choice\ made\ and\ call\ the\ correct\ function\n\ \n
+comment10.params=
+comment10.target=void\ goHome()
+comment10.text=\ Moves\ a\ card\ directly\ back\ to\ the\ home\ world\ without\ affecting\ credits\n\ \ and\ not\ using\ existing\ shuttles\n\ \ @param\ the\ id\ of\ the\ card\ to\ move\ back\ Home\n
+comment11.params=
+comment11.target=void\ convertPts()
+comment11.text=\ Converts\ a\ card's\ loyalty\ points\ into\ credits\n\ @param\ the\ id\ of\ the\ card\ whose\ points\ are\ to\ be\ converted\n
+comment12.params=
+comment12.target=void\ evacuate()
+comment12.text=\ In\ an\ emergency,\ evacuates\ all\ cards\ directly\ back\ to\ the\ home\ world\ without\ \n\ affecting\ credits\ or\ other\ information\ and\ not\ using\ existing\ shuttles\n
+comment2.params=
+comment2.target=int\ getOption()
+comment2.text=\ Display\ a\ menu\ of\ options\ and\ get\ a\ choice\n\ \n
+comment3.params=
+comment3.target=void\ listAllWorlds()
+comment3.text=\ Returns\ all\ of\ the\ data\ about\ all\ worlds\ including\ the\ cards\n\ currently\ on\ each\ world,\ or\ "No\ cards"\n\ @return\ all\ of\ the\ details\ of\ all\ worlds\ including\ \ \n\ and\ all\ cards\ currently\ on\ each\ world,\ or\ "No\ cards"\n
+comment4.params=
+comment4.target=void\ listAllCardsbyWorld()
+comment4.text=\ Returns\ a\ String\ representation\ of\ all\ the\ cards\ on\ all\ worlds,\ \n\ listed\ by\ world\ \n\ @return\ a\ String\ representation\ of\ all\ cards\ on\ all\ worlds\n
+comment5.params=
+comment5.target=void\ listOneWorld()
+comment5.text=\ Returns\ a\ String\ representation\ of\ all\ the\ cards\ on\ specified\ world\n\ @return\ a\ String\ representation\ of\ all\ cards\ on\ specified\ world\n
+comment6.params=
+comment6.target=void\ findACard()
+comment6.text=\ Returns\ the\ name\ of\ the\ world\ which\ contains\ the\ specified\ card\ or\ null\n\ @param\ cr\ -\ the\ specified\ card\n\ @return\ the\ name\ of\ the\ World\ which\ contains\ the\ card,\ or\ null\n
+comment7.params=
+comment7.target=void\ tryTravel()
+comment7.text=\ Returns\ true\ if\ a\ Card\ is\ allowed\ to\ move\ using\ the\ shuttle,\ false\ otherwise\n\ A\ move\ can\ be\ made\ if\:\ \ \n\ the\ rating\ of\ the\ card\ \ >\=\ the\ rating\ of\ the\ destination\ world\n\ AND\ the\ destination\ world\ is\ not\ full\n\ AND\ the\ card\ has\ sufficient\ credits\n\ AND\ the\ card\ is\ currently\ in\ the\ source\ world\n\ AND\ the\ card\ id\ is\ for\ a\ card\ on\ the\ system\n\ AND\ the\ shuttle\ code\ is\ the\ code\ for\ a\ shuttle\ on\ the\ system\n\ @param\ the\ id\ of\ the\ card\ requesting\ the\ move\n\ @param\ the\ code\ of\ the\ shuttle\ journey\ by\ which\ the\ card\ wants\ to\ pCardel\n\ @return\ true\ if\ the\ card\ is\ allowed\ on\ the\ shuttle\ journey,\ false\ otherwise\n
+comment8.params=
+comment8.target=void\ travelNow()
+comment8.text=\ Returns\ the\ result\ of\ a\ card\ requesting\ to\ move\ by\ Shuttle.\n\ A\ move\ will\ be\ successful\ if\:\ \ \n\ the\ luxury\ rating\ of\ the\ card\ \ >\=\ the\ luxury\ rating\ of\ the\ destination\ world\n\ AND\ the\ destination\ world\ is\ not\ full\n\ AND\ the\ card\ has\ sufficient\ credits\n\ AND\ the\ card\ is\ currently\ in\ the\ source\ world\n\ AND\ the\ card\ id\ is\ for\ a\ card\ on\ the\ system\n\ AND\ the\ shuttle\ code\ is\ the\ code\ for\ a\ shuttle\ on\ the\ system\n\ If\ the\ shuttle\ journey\ can\ be\ made,\ the\ card\ information\ is\ removed\ from\ the\ source\n\ world,\ added\ to\ the\ destination\ world\ and\ a\ suitable\ message\ returned.\n\ If\ shuttle\ journey\ cannot\ be\ made,\ the\ state\ of\ the\ system\ remains\ unchanged\n\ and\ a\ message\ specifying\ the\ reason\ is\ returned.\n\ @param\ the\ id\ of\ the\ card\ requesting\ the\ move\n\ @param\ the\ code\ of\ the\ shuttle\ journey\ by\ which\ the\ card\ wants\ to\ pCardel\n\ @return\ a\ String\ giving\ the\ result\ of\ the\ request\n
+comment9.params=
+comment9.target=void\ updateCredits()
+comment9.text=\ Allows\ a\ card\ to\ top\ up\ their\ credits.This\ method\ is\ not\ concerned\ with\ \n\ \ the\ cost\ of\ a\ credit\ as\ currency\ and\ prices\ may\ vary\ between\ resorts.\n\ \ @param\ the\ id\ of\ the\ card\ toping\ up\ their\ credits\n\ \ @param\ the\ number\ of\ credits\ purchased\ to\ be\ added\ to\ cards\ information\n
+numComments=13
